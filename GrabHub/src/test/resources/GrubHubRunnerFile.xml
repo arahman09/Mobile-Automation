@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="GrubHub Android Test Automation Script" parallel="false">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="phone"/>
+    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceName" value="S9"/>
+    <parameter name="version" value="8.0.0"/>
+    <parameter name="moduleName" value="GrabHub"/>
+    <parameter name="appName" value="Grubhub.apk"/>
+
+    <test name = "GrubHub Test">
+        <classes>
+            <class name="test.LandingPageTest" />
+        </classes>
+
+    </test>
+
+</suite>
+
