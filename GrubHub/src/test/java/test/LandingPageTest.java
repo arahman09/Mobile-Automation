@@ -14,6 +14,6 @@ public class LandingPageTest extends CommonAPI {
         landingPage.getAddressBox();
 //        typeByXpath();
 //        landingPage.getSearchBox();
-          landingPage.getCuisineButton();
+//        landingPage.getCuisineButton();
     }
 }

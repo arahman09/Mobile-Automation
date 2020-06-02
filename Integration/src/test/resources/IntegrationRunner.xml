@@ -3,17 +3,18 @@
 
 <suite name ="GrubHub Android Test Automation Script" parallel="false">
 
-    <parameter name="OS" value="Android"/>
+    <parameter name="OS" value="IOS"/>
     <parameter name="appType" value="phone"/>
-    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceType" value="Simulator"/>
     <parameter name="deviceName" value="S9"/>
     <parameter name="version" value="8.0.0"/>
-    <parameter name="moduleName" value="GrabHub"/>
+    <parameter name="udid" value="35503444574e3098"/>
+    <parameter name="moduleName" value="GrubHub"/>
     <parameter name="appName" value="Grubhub.apk"/>
 
     <test name = "GrubHub Test">
         <classes>
-            <class name="test.LandingPageTest" />
+            <class name="" />
         </classes>
 
     </test>
